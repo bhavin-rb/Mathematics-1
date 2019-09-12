@@ -10,10 +10,11 @@ def linear_line_equation(a, b, c, d):
     # a = x_1, b = y_1, c = x_2, d = y_2
     if c - a != 0:  # checking if the linear line is not vertical
         m: float = (d - b) / (c - a)  # calculating the slope, m of the linear line
-        constant_c = b  # constant,c is equal to any value of y_1 or y_2 (when x = 0)
+        constant_c = b - m*a  # to calculate constant,c we take any given point of x and y
     else:
         return print("The line has no Slope (The line is vertical)")
 
+    print("The two coordinate points are: ({0}, {1}) and ({2}, {3})".format(a,b,c,d))
     print("The slope, m of the linear line is {0}".format(m))
     print("Equation of linear line is y = {0}x + {1}".format(m, constant_c))
 
