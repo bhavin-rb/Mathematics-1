@@ -1,6 +1,6 @@
 '''
-A triangle is valid if sum of it's two sides is greater then the third side. 
-If three sides are a, b and c, than three conditions should be met.
+A triangle is valid if sum of its two sides is greater than the third side. 
+If three sides are a, b and c, then three conditions should be met.
 a + b > c 
 a + c > b 
 b + c > a  
@@ -18,5 +18,5 @@ c = int(input('Enter value of side c: '))
 
 triangle_check(a,b,c)
 
-# a = 1, b = 2, c = 3: Output is 'Tirangle is NOT VALID'.
-# a = 7, b = 10, c = 5: Output is 'Tirangle is VALID'.
+# a = 1, b = 2, c = 3: Output is 'Triangle is NOT VALID'.
+# a = 7, b = 10, c = 5: Output is 'Triangle is VALID'.
